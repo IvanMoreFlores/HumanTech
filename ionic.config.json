@@ -1,0 +1,7 @@
+{
+  "name": "Humantech",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

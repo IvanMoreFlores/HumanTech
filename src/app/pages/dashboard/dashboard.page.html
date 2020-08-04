@@ -1,0 +1,27 @@
+
+<ion-content class="ion-padding">
+  <div  class="padre">
+    <div class="hijo">
+      <h1 class="ion-text-center">Dashboard</h1>
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center>
+        Bienvenido al Dashboard!
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center>
+        Tu EmailID registrado : {{userEmail}}
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</div>
+</div>
+
+</ion-content>
+<ion-footer (click)="logout()">
+  <ion-toolbar color="secondary">
+    <ion-title>
+      Cerrar sesión</ion-title>
+  </ion-toolbar>
+</ion-footer>
